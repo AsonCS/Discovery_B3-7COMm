@@ -15,9 +15,11 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 - **TAP**
   - Token de Ativo Produtivo.
   - Non-Fungible Token.
+  - Representam parte imutável do valor do ativo.
 - **TCN**
   - Token de Cota de Negócio.
   - Non-Fungible Token.
+  - Representam parte imutável do valor do ativo.
 - **TRED**
   - Token de cRÉDito
   - Fungible Token.
@@ -33,17 +35,6 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
   - Inflação é controlada por votação com a participação dos detentores deste token.
   - Fração não disponível.
 
-### Casos de Uso
-
-- Ao investir ou consumir em parceiros da plataforma, os investidores/consumidores receberam tokens `TIL`s (Fungible Token de Impacto Local) como _"milhas"/"cashback"_ para descontos em compras nos parceiros da plataforma e outros benefícios (Precisa ser decidido).
-- Investidores que compraram `TAP/TCN` (Non-Fungible Token) que representam fração ou cota do investimento, assim cada ação será única. Parte do investimento será retornado como `TIL`s.
-- Os mineradores receberam `TOVE` (Fungible Tokens), esses terão direito a voto na rede, proporcionalmente ao montante de `TOVE`s.
-- Os mineradores receberam suas recompensas por blocos validados em `TRED`s, que podem ser usados para compras em parceiros, ações ou resgatados em dinheiro (Dólar/Real).
-- Cada parceiro poderá definir o valor de seus serviços em `TIL`s, essa concorrência deverá manter uma baixa Inflação no sistema.
-- Os empreendedores poderão solicitar empréstimos em `TRED`s **com ou sem garantias** (as garantias influenciam os juros), as parcelas e juros serão pagos em `TRED`s.
-- As garantias utilizadas em empréstimos poderão ser `TAP/TCN`, `TOVE`, `TRED` ou contratos externos à rede através de penhores.
-- A modalidade de empréstimos deverá parecer com _"vaquinhas online"_ onde o empreendedor conta sua história e tenta convencer os investidores.
-
 ### Fluxos e Interações
 
 #### Empreendedor
@@ -53,21 +44,28 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 - **Tokenização de Espaço/Tempo:** Um artista pode tokenizar em `TCN` horas de seu tempo para criação de obras personalizadas ou consultoria de arte.
 - **Empréstimos com Garantia de Ativo Futuro:** O próprio `TAP/TCN` pode servir de garantia para empréstimos menores, criando um ciclo virtuoso.
 - **Empréstimos por Reputação:** Empreendedores com histórico positivo de pagamentos na plataforma poderiam acessar empréstimos com juros reduzidos ou sem garantias tangíveis, baseados na sua "pontuação de reputação" on-chain.
+- **Juros nos Empréstimos:** Os empreendedores poderão solicitar empréstimos em `TRED`s **com ou sem garantias** (as garantias influenciam os juros), as parcelas e juros serão pagos em `TRED`s.
+- **Garantias para Empréstimos:** As garantias utilizadas em empréstimos poderão ser `TAP/TCN`, `TOVE`, `TRED` ou ativis tokenizados.
+- **Experiência ao solicitar Empréstimos:** A modalidade de empréstimos deverá parecer com _"vaquinhas online"_ onde o empreendedor conta sua história e tenta convencer os investidores.
+- **Valor do `TIL`s:** Cada empreendedor poderá definir o valor de seus serviços em `TIL`s, essa concorrência deverá manter uma baixa Inflação no sistema.
 
 #### Investidor
 
+- **Investimentos:** Ao investir dentro da plataforma, comprando `TAP/TCN`, os investidores receberam tokens `TIL`s como _"milhas/cashback"_ para utilizar nos serviços dos parceiros da plataforma.
 - **Votação de Novos Recursos:** Detentores de `TOVE`s votam em quais funcionalidades a plataforma deve priorizar (ex: integração com outros meios de pagamento, novos tipos de tokenização).
 - **Votação para Entrada de Novos Parceiros:** A comunidade pode votar nas regras de aceitação de novos negócios no ecossistema, garantindo a qualidade e alinhamento com os valores da plataforma.
 
 #### Consumidor
 
+- **Consumo:** Ao consumir produtos ou serviços nos parceiros da plataforma, os consumidores receberam tokens `TIL`s como _"milhas/cashback"_ para utilizar nos serviços dos parceiros da plataforma.
 - **`TIL`s como "Vouchers" Coletivos:** Um cliente acumula `TIL`s na padaria e os usa para um desconto no salão de beleza ao lado, incentivando o consumo cruzado e o fortalecimento do comércio local.
 - **Recompensas por Engajamento:** Usuários que avaliam os negócios, indicam novos parceiros ou participam de desafios da plataforma podem receber `TIL`s bônus.
 - **`TIL`s por Impacto Social:** Parcerias com iniciativas locais (coleta seletiva, projetos sociais) onde a participação do cidadão é recompensada com TILs que podem ser usados no comércio local.
 
-#### Minerador
+#### Minerador/Validador
 
-#### Validador
+- **Mineirar e Validar os blocos:** Os mineradores receberam `TOVE`s que darão direito a voto na rede, proporcionalmente ao montante de `TOVE`s.
+- **Recompensas por mineração/validação:** Os mineradores/validadores receberam suas recompensas por blocos validados em `TRED`s, que podem ser usados para compras em parceiros, ações ou resgatados em dinheiro (Dólar/Real).
 
 ### Possíveis Faturamentos
 
