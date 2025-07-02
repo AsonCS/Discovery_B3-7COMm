@@ -9,7 +9,7 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 - **TIL**
   - Token de Impacto Local.
   - Fungible Token.
-  - _"Queimado"_ todo vez que utilizado em um serviço.
+  - _"Queimado"_ toda vez que utilizado em um serviço.
   - Inflação é controlada pela oferta/demanda de serviços nos parceiros.
   - Fração mínima `0,01`.
 - **TAP**
@@ -23,7 +23,7 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
   - Fungible Token.
   - Crédito usado para transações na plataforma.
   - Gerado para mineradores, em vendas de ações e na compra desses com dinheiro (Dólar/Real).
-  - _"Queimado"_ todo vez que utilizado em compras em parceiros, de ações e resgates em dinheiro (Dólar/Real).
+  - _"Queimado"_ toda vez que utilizado em compras em parceiros, de ações e resgates em dinheiro (Dólar/Real).
   - Inflação é controlada pela utilização em compras em parceiros, de ações e resgates em dinheiro (Dólar/Real).
   - Fração mínima `0,01`.
 - **TOVE**
@@ -36,13 +36,13 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 ### Casos de Uso
 
 - Ao investir ou consumir em parceiros da plataforma, os investidores/consumidores receberam tokens `TIL`s (Fungible Token de Impacto Local) como _"milhas"/"cashback"_ para descontos em compras nos parceiros da plataforma e outros benefícios (Precisa ser decidido).
-- Investidores compraram `TAP/TCN` (Non-Fungible Token) que representam fração ou cota do investimento, assim cada ação será única. Parte do investimento será retornado como `TIL`s.
+- Investidores que compraram `TAP/TCN` (Non-Fungible Token) que representam fração ou cota do investimento, assim cada ação será única. Parte do investimento será retornado como `TIL`s.
 - Os mineradores receberam `TOVE` (Fungible Tokens), esses terão direito a voto na rede, proporcionalmente ao montante de `TOVE`s.
 - Os mineradores receberam suas recompensas por blocos validados em `TRED`s, que podem ser usados para compras em parceiros, ações ou resgatados em dinheiro (Dólar/Real).
 - Cada parceiro poderá definir o valor de seus serviços em `TIL`s, essa concorrência deverá manter uma baixa Inflação no sistema.
 - Os empreendedores poderão solicitar empréstimos em `TRED`s **com ou sem garantias** (as garantias influenciam os juros), as parcelas e juros serão pagos em `TRED`s.
-- As garantias utilizadas em empréstimos poderão ser `TAP/TCN`, `TOVE`, `TRED` ou contratos externos a rede através de penhores.
-- A modalidade de empréstimos devera parecer com _"vaquinhas online"_ onde o empreendedor conta sua história e tenta convencer os investidores.
+- As garantias utilizadas em empréstimos poderão ser `TAP/TCN`, `TOVE`, `TRED` ou contratos externos à rede através de penhores.
+- A modalidade de empréstimos deverá parecer com _"vaquinhas online"_ onde o empreendedor conta sua história e tenta convencer os investidores.
 
 ### Fluxos e Interações
 
@@ -88,7 +88,7 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 
 ### Regras de Negócio
 
-- Validação de Empreendedores: Todos os empreendedores que desejam tokenizar ativos devem passar por um processo de verificação (KYC - Know Your Customer e KYB - Know Your Business) para garantir sua idoneade e a legitimidade de seus negócios.
+- Validação de Empreendedores: Todos os empreendedores que desejam tokenizar ativos devem passar por um processo de verificação (KYC - Know Your Customer e KYB - Know Your Business) para garantir sua idoneidade e a legitimidade de seus negócios.
 - Contratos Inteligentes Seguros: Todos os termos de tokenização de ativos e empréstimos devem ser implementados via contratos inteligentes robustos, auditados e imutáveis, garantindo a execução automática das condições acordadas.
 - Mecanismo de Resolução de Disputas: Implementar um sistema claro para lidar com falhas na entrega de produtos/serviços tokenizados ou inadimplência de empréstimos. Isso pode incluir mediação da plataforma, fundos de garantia comunitários ou arbitragem descentralizada.
 - Definição Clara de Recompensas TIL: Os parceiros devem ter regras claras sobre como os TILs são gerados (ex: X TILs a cada Y Reais gastos) e quais benefícios específicos eles oferecem em troca dos TILs.
@@ -113,7 +113,7 @@ A `Colheita Digital` é uma plataforma `DeFi` (Finanças Descentralizadas) inova
 - Tributação:
   - A tributação sobre ganhos de capital com criptoativos e a natureza jurídica dos tokens (se são bens, serviços ou valores mobiliários) afetam a apuração de impostos para usuários e para a própria plataforma. É essencial consultar especialistas tributários.
 - Legislação Trabalhista e Fiscal para Empreendedores:
-  - A plataforma deve orientar ou ao menos não induzir o empreendedor a informalidade. A captação de recursos via tokenização não isenta o empreendedor de suas obrigações fiscais e trabalhistas, caso ele tenha funcionários.
+  - A plataforma deve orientar ou ao menos não induzir o empreendedor à informalidade. A captação de recursos via tokenização não isenta o empreendedor de suas obrigações fiscais e trabalhistas, caso ele tenha funcionários.
 
 ### Benchmark
 
