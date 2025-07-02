@@ -16,11 +16,11 @@ Pequenos negócios e empreendedores autônomos muitas vezes enfrentam:
   - Um pequeno agricultor pode tokenizar uma porcentagem de sua próxima colheita de orgânicos, vendendo esses tokens antecipadamente para a comunidade. Os compradores recebem o produto final ou um retorno financeiro sobre o valor investido.
   - Um artesão pode tokenizar uma série de peças exclusivas que serão produzidas, recebendo capital para matéria-prima e mão de obra.
   - Um dono de restaurante pode tokenizar cupons de refeições futuras ou a experiência de um "chef por um dia", convertendo antecipadamente seu fluxo de caixa e criando uma base de clientes engajados.
-  - Stablecoins seriam usadas para a transferência de fundos de forma rápida, transparente e com baixas taxas, conectando investidores (pessoas comuns) diretamente aos empreendedores.
+  - "Tokens de crédito" (TREDs) seriam usadas para a transferência de fundos de forma rápida, transparente e com baixas taxas, conectando investidores (pessoas comuns) diretamente aos empreendedores.
 - Fidelização e Recompensas Comunitárias:
   - Ao comprar produtos ou investir em tokens de ativos produtivos, os clientes/investidores são recompensados com "Tokens de Impacto Local" (TILs).
   - Esses TILs são compartilhados e acumulados em um consórcio de pequenos negócios locais participantes (padarias, hortifrútis, salões de beleza, etc.).
-  - Os TILs podem ser resgatados em qualquer um dos negócios participantes para obter descontos, produtos exclusivos, ou até mesmo trocados por outros serviços ou stablecoins dentro da plataforma.
+  - Os TILs podem ser resgatados em qualquer um dos negócios participantes para obter descontos, produtos exclusivos, ou até mesmo trocados por outros serviços ou TREDs dentro da plataforma.
   - Gamificação: Desafios e metas poderiam ser criados (ex: "Apoie 5 negócios diferentes no mês e ganhe 50 TILs bônus"), incentivando a exploração e o consumo local.
 
 ### 3. Diferenciais e Impacto
