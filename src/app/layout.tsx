@@ -19,8 +19,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    'https://colheita-digital.vercel.app'
+    'https://discovery-b3-7comm.vercel.app/'
   ),
+  icons: {
+    icon: '/image/logo_circle.png'
+  },
   title: {
     default:
       'Colheita Digital - Tokenize-se: O Valor Além da Moeda',
@@ -47,7 +50,7 @@ export default function RootLayout({
       <head>
         <link
           rel="canonical"
-          href="https://colheita-digital.vercel.app"
+          href="https://discovery-b3-7comm.vercel.app/"
         />
       </head>
       <body className="font-inter antialiased bg-background text-foreground">

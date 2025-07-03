@@ -11,9 +11,18 @@ export function HeroSection({
   data
 }: HeroSectionProps) {
   return (
-    <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
+    <section
+      style={{
+        backgroundImage:
+          'url(/image/banner_original.png)',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+      }}
+      className="relative py-20 lg:py-32"
+    >
       <Container>
-        <div className="max-w-4xl mx-auto text-center space-y-8">
+        <div className="max-w-4xl mx-auto text-center py-4 space-y-8 bg-gradient-to-br from-transparent via-secondary/80 to-secondary/100">
           <div className="space-y-4">
             <h1 className="font-poppins text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
               {data.title}
@@ -28,7 +37,7 @@ export function HeroSection({
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href='/parceiro/solicitar'>
+            <Link href="/parceiro/solicitar">
               <Button
                 size="lg"
                 className="min-w-[200px]"
@@ -36,14 +45,15 @@ export function HeroSection({
                 Crie sua Campanha de Empréstimo
               </Button>
             </Link>
-            {/*
-            <Button size="lg" className="min-w-[200px]">
-              {data.ctaText}
-            </Button>
-            <Button variant="outline" size="lg" className="min-w-[200px]">
-              Assistir Demo
-            </Button>
-            */}
+            <Link href="/proposta">
+              <Button
+                variant="outline"
+                size="lg"
+                className="min-w-[200px]"
+              >
+                Saiba Mais
+              </Button>
+            </Link>
           </div>
         </div>
       </Container>

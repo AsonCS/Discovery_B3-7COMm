@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Container } from '@/shared/design-system/components/Container'
 import NavLinks from '@/components/ui/nav-links'
+import Image from 'next/image'
 
 export function Header({
   hasNav = true
@@ -13,12 +14,14 @@ export function Header({
         <div className="flex h-16 items-center justify-center">
           <Link
             href="/"
-            className="flex flex-grow flex-shrink flex-basis-1/3 items-center space-x-2"
+            className="flex flex-grow flex-shrink flex-basis-1/3 items-center space-x-1"
           >
-            <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">
-                CD
-              </span>
+            <div className="h-14 w-14 relative">
+              <Image
+                src="/image/logo_circle.png"
+                alt="Colheita Digital Logo"
+                fill
+              />
             </div>
             <span className="font-poppins font-bold text-xl">
               Colheita Digital
