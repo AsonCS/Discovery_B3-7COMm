@@ -1,7 +1,7 @@
 import type React from 'react'
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
-import './globals.css'
+import '../globals.css'
 import { Footer } from '@/presentation/components/layout/Footer'
 
 const inter = Inter({

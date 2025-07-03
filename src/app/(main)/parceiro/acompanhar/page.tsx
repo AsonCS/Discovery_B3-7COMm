@@ -158,7 +158,7 @@ export default function CampaignStatusPage() {
                   </div>
                   <Button
                     size="lg"
-                    className="mt-6 w-full text-lg"
+                    className="pointer-events-none mt-6 w-full text-lg"
                   >
                     <Heart className="mr-2 h-5 w-5" />{' '}
                     Apoiar este projeto

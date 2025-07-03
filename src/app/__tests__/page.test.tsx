@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"
-import HomePage from "../page"
+import HomePage from "../(main)/page"
 import jest from "jest" // Import jest to fix the undeclared variable error
 
 // Mock the content repository
