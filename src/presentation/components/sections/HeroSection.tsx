@@ -1,19 +1,26 @@
-import type { HeroContent } from "@/domain/entities/Content"
-import { Container } from "@/shared/design-system/components/Container"
-import { Button } from "@/shared/design-system/components/Button"
+import type { HeroContent } from '@/domain/entities/Content'
+import { Container } from '@/shared/design-system/components/Container'
+import { Button } from '@/shared/design-system/components/Button'
+import Link from 'next/link'
 
 interface HeroSectionProps {
   data: HeroContent
 }
 
-export function HeroSection({ data }: HeroSectionProps) {
+export function HeroSection({
+  data
+}: HeroSectionProps) {
   return (
     <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
       <Container>
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <h1 className="font-poppins text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">{data.title}</h1>
-            <h2 className="font-poppins text-xl md:text-2xl lg:text-3xl font-medium text-primary">{data.subtitle}</h2>
+            <h1 className="font-poppins text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+              {data.title}
+            </h1>
+            <h2 className="font-poppins text-xl md:text-2xl lg:text-3xl font-medium text-primary">
+              {data.subtitle}
+            </h2>
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -21,12 +28,22 @@ export function HeroSection({ data }: HeroSectionProps) {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link href='/parceiro/solicitar'>
+              <Button
+                size="lg"
+                className="min-w-[200px]"
+              >
+                Crie sua Campanha de Empréstimo
+              </Button>
+            </Link>
+            {/*
             <Button size="lg" className="min-w-[200px]">
               {data.ctaText}
             </Button>
             <Button variant="outline" size="lg" className="min-w-[200px]">
               Assistir Demo
             </Button>
+            */}
           </div>
         </div>
       </Container>
