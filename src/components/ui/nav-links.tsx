@@ -35,6 +35,12 @@ export default function NavLinks({
       >
         Futuro
       </Link>
+      <Link
+        href="/docs/resumo"
+        className="text-sm font-medium hover:text-primary transition-colors"
+      >
+        Docs
+      </Link>
     </nav>
   )
 }
