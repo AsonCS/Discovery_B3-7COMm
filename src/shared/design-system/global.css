@@ -1,0 +1,52 @@
+.app-theme {
+    /* Borders */
+    --border-width--zero: 0;
+    --border-width--medium: 0.2rem;
+    --border-style--none: none;
+    --border-style--solid: solid;
+    --border-radius--small: 0.25rem;
+    --border-radius--medium: 0.5rem;
+    --border-radius--large: 1rem;
+
+    /* Colors */
+    --background: #ffffff;
+    --black: #000000;
+    --primary: #16a249;
+    --primary--70: rgba(22, 162, 73, 0.7);
+    --primary--40: rgba(22, 162, 73, 0.4);
+    --primary--20: rgba(22, 162, 73, 0.2);
+    --primary--10: rgba(22, 162, 73, 0.1);
+    --secondary: #ecb425;
+    --secondary--70: rgb(218, 165, 32, 0.7);
+    --secondary--40: rgb(218, 165, 32, 0.4);
+    --secondary--20: rgb(218, 165, 32, 0.2);
+    --transparent: transparent;
+
+    /* Spacing */
+    --letter-spacing--medium: .05rem;
+    --padding--small--x: 0.6rem;
+    --padding--small--y: 0.1rem;
+    --padding--medium--x: 1rem;
+    --padding--medium--y: 0.3rem;
+    --padding--large--x: 1.5rem;
+    --padding--large--y: 0.5rem;
+
+    /* Typography */
+    --font-family: 'Roboto', sans-serif;
+    --font-size--small: 0.6rem;
+    --font-size--medium: 1rem;
+    --font-size--large: 1.5rem;
+    --font-weight--bold: 800;
+    --font-weight--normal: 600;
+    --line-height--medium: 1.75rem;
+
+    background-color: var(--background);
+    font-family: var(--font-family);
+}
+
+.app-theme--dark {
+    /* Colors */
+    --background: #000000;
+
+    background-color: var(--background);
+}

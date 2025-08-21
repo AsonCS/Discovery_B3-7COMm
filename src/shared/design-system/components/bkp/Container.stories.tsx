@@ -1,8 +1,10 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Container } from "./Container"
 
+import '../../../../styles/globals.css'
+
 const meta = {
-  title: "Design System/Container",
+  title: "Bkp/Design System/Container",
   component: Container,
   parameters: {
     layout: "fullscreen",

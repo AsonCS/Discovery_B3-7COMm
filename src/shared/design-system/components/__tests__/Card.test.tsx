@@ -1,6 +1,6 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "../Card"
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "../bkp/Card"
 
 describe("Card Components", () => {
   describe("Card", () => {

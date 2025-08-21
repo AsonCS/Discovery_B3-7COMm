@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Container } from '@/shared/design-system/components/Container'
+import { Container } from '@/shared/design-system/components/bkp/Container'
 import Image from 'next/image'
 
 export function Footer() {

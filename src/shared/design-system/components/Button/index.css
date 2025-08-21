@@ -1,0 +1,108 @@
+.btn {
+    border-style: var(--border-style--solid);
+    border-width: var(--border--medium);
+    color: var(--black);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight--normal);
+    letter-spacing: var(--letter-spacing--medium);
+    line-height: var(--line-height--medium);
+}
+
+.btn--border-radius--small {
+    border-radius: var(--border-radius--small);
+}
+
+.btn--border-radius--medium {
+    border-radius: var(--border-radius--medium);
+}
+
+.btn--border-radius--large {
+    border-radius: var(--border-radius--large);
+}
+
+.btn--size--small {
+    padding: var(--padding--small--y) var(--padding--small--x);
+    font-size: var(--font-size--small);
+}
+
+.btn--size--medium {
+    padding: var(--padding--medium--y) var(--padding--medium--x);
+    font-size: var(--font-size--medium);
+}
+
+.btn--size--large {
+    padding: var(--padding--large--y) var(--padding--large--x);
+    font-size: var(--font-size--large);
+}
+
+.btn--variant--primary-filled {
+    background-color: var(--primary);
+    border-color: var(--transparent);
+}
+
+.btn--variant--primary-filled:hover {
+    background-color: var(--primary--70);
+}
+
+.btn--variant--primary-outlined {
+    background-color: var(--transparent);
+    border-color: var(--primary);
+}
+
+.app-theme--dark .btn--variant--primary-outlined {
+    color: var(--primary);
+}
+
+.btn--variant--primary-outlined:hover {
+    background-color: var(--primary--40);
+}
+
+.btn--variant--primary-text {
+    background-color: var(--primary--20);
+    border-color: var(--transparent);
+}
+
+.app-theme--dark .btn--variant--primary-text {
+    color: var(--primary);
+}
+
+.btn--variant--primary-text:hover {
+    background-color: var(--primary--40);
+}
+
+.btn--variant--secondary-filled {
+    background-color: var(--secondary);
+    border-color: var(--transparent);
+}
+
+.btn--variant--secondary-filled:hover {
+    background-color: var(--secondary--70);
+}
+
+.btn--variant--secondary-outlined {
+    background-color: var(--transparent);
+    border-color: var(--secondary);
+}
+
+.app-theme--dark .btn--variant--secondary-outlined {
+    color: var(--secondary);
+}
+
+.btn--variant--secondary-outlined:hover {
+    background-color: var(--secondary--40);
+}
+
+.btn--variant--secondary-text {
+    background-color: var(--secondary--20);
+    border-color: var(--transparent);
+}
+
+.app-theme--dark .btn--variant--secondary-text {
+    color: var(--secondary);
+}
+
+.btn--variant--secondary-text:hover {
+    background-color: var(--secondary--40);
+}

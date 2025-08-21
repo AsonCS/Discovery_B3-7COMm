@@ -1,8 +1,10 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Button } from "./Button"
 
+import '../../../../styles/globals.css'
+
 const meta = {
-  title: "Design System/Button",
+  title: "Bkp/Design System/Button",
   component: Button,
   parameters: {
     layout: "centered",

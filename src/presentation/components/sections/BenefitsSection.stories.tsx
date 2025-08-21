@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { BenefitsSection } from "./BenefitsSection"
 import type { BenefitsContent } from "@/domain/entities/Content"
 

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Header } from '@/presentation/components/layout/Header'
-import { Container } from '@/shared/design-system/components/Container'
+import { Container } from '@/shared/design-system/components/bkp/Container'
 import { Badge } from '@/components/ui/badge'
 import {
   Card,
@@ -8,7 +8,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle
-} from '@/shared/design-system/components/Card'
+} from '@/shared/design-system/components/bkp/Card'
 import {
   Users,
   Briefcase,

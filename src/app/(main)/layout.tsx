@@ -1,8 +1,10 @@
 import type React from 'react'
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
-import '../globals.css'
 import { Footer } from '@/presentation/components/layout/Footer'
+
+import '../globals.css'
+import '../../shared/design-system/global.css'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -53,7 +55,7 @@ export default function RootLayout({
           href="https://discovery-b3-7comm.vercel.app/"
         />
       </head>
-      <body className="font-inter antialiased bg-background text-foreground">
+      <body className="font-inter antialiased bg-background text-foreground app-theme">
         {children}
         <Footer />
       </body>

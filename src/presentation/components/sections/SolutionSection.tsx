@@ -1,6 +1,6 @@
 import type { SolutionContent } from "@/domain/entities/Content"
-import { Container } from "@/shared/design-system/components/Container"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/shared/design-system/components/Card"
+import { Container } from "@/shared/design-system/components/bkp/Container"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/shared/design-system/components/bkp/Card"
 
 interface SolutionSectionProps {
   data: SolutionContent

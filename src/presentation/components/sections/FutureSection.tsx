@@ -1,5 +1,5 @@
 import type { FutureContent } from "@/domain/entities/Content"
-import { Container } from "@/shared/design-system/components/Container"
+import { Container } from "@/shared/design-system/components/bkp/Container"
 
 interface FutureSectionProps {
   data: FutureContent

@@ -1,8 +1,10 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./Card"
 
+import '../../../../styles/globals.css'
+
 const meta = {
-  title: "Design System/Card",
+  title: "Bkp/Design System/Card",
   component: Card,
   parameters: {
     layout: "centered",
