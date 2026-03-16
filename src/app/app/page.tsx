@@ -190,7 +190,8 @@ const Icon = ({ name, size = 20, color = 'currentColor', style }: { name: string
 const PhoneFrame = ({ children, bg = '#f0fdf4' }: { children: React.ReactNode; bg?: string }) => (
     <div
         style={{
-            width: 375,
+            width: '100%',
+            maxWidth: 375,
             minHeight: 812,
             background: bg,
             borderRadius: 44,
@@ -3670,8 +3671,11 @@ export default function App() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'flex-start',
-                padding: '32px 24px 48px',
+                padding: '32px 16px 48px',
                 fontFamily: "'Nunito', sans-serif",
+                width: '100%',
+                overflowX: 'hidden',
+                boxSizing: 'border-box'
             }}
         >
             {/* Header */}
@@ -3693,7 +3697,7 @@ export default function App() {
 
             {/* Profile tabs */}
             {profile && (
-                <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 8, marginBottom: 20 }}>
                     {Object.entries(PROFILE_LABELS).map(([key, val]) => (
                         <button
                             key={key}

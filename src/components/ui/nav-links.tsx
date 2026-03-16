@@ -10,13 +10,7 @@ export default function NavLinks({
   if (!hasNav) return null
 
   return (
-    <nav className="flex-grow flex-shrink flex-basis-1/3 hidden md:flex items-center space-x-6">
-      <Link
-        href="/app"
-        className="text-sm font-medium hover:text-primary transition-colors"
-      >
-        App
-      </Link>
+    <nav className="flex-grow flex-shrink flex-basis-1/3 flex items-center space-x-6">
       <Link
         href="#problema"
         className="text-sm font-medium hover:text-primary transition-colors"

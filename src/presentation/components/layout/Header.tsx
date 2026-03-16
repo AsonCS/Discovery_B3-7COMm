@@ -11,7 +11,7 @@ export function Header({
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <Container>
-        <div className="flex h-16 items-center justify-center">
+        <div className="flex min-h-16 items-center justify-center flex-col">
           <Link
             href="/"
             className="flex flex-grow flex-shrink flex-basis-1/3 items-center space-x-1"
@@ -27,17 +27,13 @@ export function Header({
               Colheita Digital
             </span>
           </Link>
-
+          <Link
+            href="/app"
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            App
+          </Link>
           <NavLinks hasNav={hasNav} />
-
-          <div className="flex flex-grow flex-shrink flex-basis-1/3 items-center space-x-4">
-            {/*
-            <Button variant="outline" size="sm">
-              Login
-            </Button>
-            <Button size="sm">Cadastrar</Button>
-            */}
-          </div>
         </div>
       </Container>
     </header>
