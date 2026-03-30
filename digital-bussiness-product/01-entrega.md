@@ -1,4 +1,4 @@
-# Digital Bussiness & Product
+# Digital Business & Product
 
 ## Class
 
@@ -17,13 +17,13 @@ Tokenize-se: O Valor Além da Moeda
 ### 1 - Quais das dinâmicas criadas pelas organizações exponenciais têm aderência com a tua Startup One?
 
 2. Foco na desmonetização.
-  - Focar no "boca a boca" para divulgar a empresa, ja que se trata de um negócio democratico.
+  - Focar no "boca a boca" para divulgar a empresa, já que se trata de um negócio democratico.
 5. A morte do planejamento de 5 anos.
   - A economia, especialmente no Brasil muda muito.
 8. Abertura se torna um componente chave.
-  - Por ser democratico, clientes de todos os niveis de excolaridade teram acesso, e daram seus feedback.
+  - Por ser democratico, clientes de todos os níveis de escolaridade terão acesso, e darão seus feedbacks.
 9. Tudo se torna mensurável.
-  - Todos os dados, respeitando a privacidade dos clientes, podem acelerar modelos de inteligencia.
+  - Todos os dados, respeitando a privacidade dos clientes, podem acelerar modelos de inteligência.
 
 ---
 
